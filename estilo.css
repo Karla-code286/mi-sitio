@@ -1,0 +1,696 @@
+
+/*afecta el fondo*/
+body{
+  background-color: rgb(252, 237, 242);
+}
+/*afecta la barra de navegación*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffdbe2;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 30px 18px;
+    text-decoration: none /*Quita cualquier decoracion del texto*/;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ce8e9c;
+  }
+  
+  
+  /*afecta el logo en la barra de navegación*/
+.logo{
+    position: absolute;
+    top: -8%;
+    left: 1px;
+    width: 18%;
+
+}
+  /*Las propiedades de la primera imagen de inicio*/
+.banner1 {
+    width: 1335px;
+    height: auto;
+    display: block;
+    height: 315px;
+}
+  /*Afecta el titulo principal de la pagina*/
+.titulo1 {
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 900 /*Aplica grosor al texto*/;
+  font-style: normal /*Establece el texto en estilo normal sin cursiva ni inclinación*/;
+  text-align: center;
+  color: #b16882;
+}
+/*Afecta el parrafo presentación*/
+.p1{
+    top: 35%;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto /*Permite que el navegador ajuste automaticamente la fuente para
+     mejorar su legibilidad*/;
+    font-weight: normal /*establece el grosor normal del texto sin negrita*/;
+    font-style: normal /*Establece el texto en estilo normal sin cursiva ni inclinación*/;
+
+}
+/*Afecta la imagen de la pagina de incio*/
+.img1{
+  
+  position: absolute /*Permite mover el elemento de forma libre con top, left,rigth*/;
+    width: 625px;
+    left: 190px;
+    right: 759px;
+    display: block;
+    height: 232px;
+}
+/*Pie de pagina*/
+.footer{
+  background-color: #d8a7b1;
+  color: white;
+  font-size: 12;
+  text-align: center;
+  margin-top: 400px;
+  height: 75px;
+/*Afecta la pagina de productos*/
+}
+/*afecta la imagen del banner*/
+.banner2 {
+  width: 1335px;
+  height: auto;
+  display: block;
+  height: 315px;
+}
+/*Da propiedades a la imagen del primer producto*/
+.producto1{
+  width: 219px;
+ left: 118px;
+ margin-top: 5%;
+ position: absolute /*Permite mover el elemento de forma libre con top, left,rigth*/;
+ border-radius: 8px /*redondea las esquinas del elemento*/;
+}
+/*Da propiedades al titulo del serum*/
+.subtitulo1{
+  font-family: "Cardo", serif;
+  font-weight: 800 /*Aplica un grosor mas fuerte por el 800*/;
+  font-style: normal;
+  text-align: center;
+  color: #8d6e63;
+  width: 154px;
+  height: 22px;
+  position: absolute  /*Permite mover el elemento de forma libre con top, left,rigth*/;
+  left: 407px;
+  margin-top: 5%;
+}
+/*Da propiedades al texto el primer producto (serum)*/
+.parrafo1{
+  font-family: "Lora", serif;
+    font-optical-sizing: auto /*Permite que el navegador ajuste automaticamente la fuente para
+     mejorar su legibilidad*/;
+    font-weight: normal;
+    font-style: normal;
+    width: 221px;
+    height: 194px;
+    left: 379px ;
+    position: absolute;
+    margin-top: 8%;
+    text-align: justify;
+    color: #312e2e;
+}
+/*Da propiedades a la imagen del segundo producto*/
+.producto2{
+  margin-top: 5%;
+  position: absolute;
+  width: 219px;
+  left: 651px;
+  border-radius: 8px /*redondea las esquinas del elemento*/;
+}
+/*Da propiedades al titulo del segundo producto*/
+.subtitulo2{
+  font-family: "Cardo", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  color: #8d6e63;
+  width: 154px;
+  height: 22px;
+  position: absolute;
+  left: 935px;
+  margin-top: 5%;
+}
+/*Da propiedades al texto del segundo producto*/
+.parrafo2{
+   font-family: "Lora", serif;
+    font-optical-sizing: auto /*Permite que el navegador ajuste automaticamente la fuente para
+     mejorar su legibilidad*/;
+    font-weight: normal;
+    font-style: normal;
+    width: 221px;
+    height: 194px;
+    left: 910px ;
+    position: absolute;
+    margin-top: 8%;
+    text-align: justify;
+    color: #312e2e;
+
+}
+
+/*Afecta el producto numero tres (exfoliante)*/
+.producto3{
+  width: 219px;
+ left: 118px;
+ margin-top: 35%;
+ position: absolute;
+ border-radius: 8px /*Redondeaa las esquinas del elemento*/;
+}
+.subtitulo3{
+  
+font-family: "Cardo", serif;
+  font-weight: 800 /*Aplica grosor al texto*/;
+  font-style: normal;
+  text-align: center;
+  color: #8d6e63;
+  width: 154px;
+  height: 22px;
+  position: absolute;
+  left: 407px;
+  margin-top: 35%;
+}
+
+.parrafo3{
+  font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: normal /*aploca el grosor normal a la letra sin aplicar negrita*/;
+    font-style: normal;
+    width: 221px;
+    height: 194px;
+    left: 379px ;
+    position: absolute;
+    margin-top: 40%;
+    text-align: justify;
+    color: #312e2e;
+}
+/*Afecta las propiedades del cuarto producto*/
+.producto4{
+  margin-top: 35%;
+  position: absolute;
+  width: 219px;
+  left: 651px;
+  border-radius: 8px /*redondea las esquinas de el elemento*/;
+}
+.subtitulo4{
+  font-family: "Cardo", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  color: #8d6e63;
+  width: 154px;
+  height: 22px;
+  position: absolute;
+  left: 935px;
+  margin-top: 35%;
+}
+.parrafo4{
+   font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: normal/*Aplica el rosor estandar al texto sin negrita*/;
+    font-style: normal;
+    width: 221px;
+    height: 194px;
+    left: 910px ;
+    position: absolute;
+    margin-top: 38%;
+    text-align: justify;
+    color: #312e2e;
+
+}
+
+/*Afecta las propiedades del quiento producto*/
+.producto5{
+  width: 219px;
+ left: 118px;
+ margin-top: 65%;
+ position: absolute;
+ border-radius: 8px /*redondea las esquinas de un elemento*/;
+}
+.subtitulo5{
+  
+font-family: "Cardo", serif;
+  font-weight: 800 /*aplica un grosor mas fuerte al texto*/;
+  font-style: normal;
+  text-align: center;
+  color: #8d6e63;
+  width: 154px;
+  height: 22px;
+  position: absolute;
+  left: 407px;
+  margin-top: 65%;
+}
+
+.parrafo5{
+  font-family: "Lora", serif;
+    font-optical-sizing: auto /*Permite que el navegador ajuste automaticamente la fuente para
+     mejorar su legibilidad*/;
+    font-weight: normal;
+    font-style: normal;
+    width: 221px;
+    height: 194px;
+    left: 379px ;
+    position: absolute;
+    margin-top: 68%;
+    text-align: justify;
+    color: #312e2e;
+}
+/*Afecta las propiedades del sexto producto*/
+
+.producto6{
+  margin-top: 65%;
+  position: absolute ;
+  width: 219px;
+  left: 651px;
+  border-radius: 8px /*redondea las esquinas del elemento*/;
+}
+.subtitulo6{
+  font-family: "Cardo", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  color: #8d6e63;
+  width: 154px;
+  height: 22px;
+  position: absolute;
+  left: 935px;
+  margin-top: 65%;
+}
+.parrafo6{
+   font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    width: 221px;
+    height: 194px;
+    left: 910px ;
+    position: absolute;
+    margin-top: 70%;
+    text-align: justify;
+    color: #312e2e;
+
+}
+/*Afecta las propiedades del septimo producto*/
+.producto7{
+  width: 219px;
+ left: 118px;
+ margin-top: 95%;
+ position: absolute;
+ border-radius: 8px;
+}
+.subtitulo7{
+  
+font-family: "Cardo", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  color: #8d6e63;
+  width: 154px;
+  height: 22px;
+  position: absolute;
+  left: 407px;
+  margin-top: 95%;
+}
+
+.parrafo7{
+  font-family: "Lora", serif;
+    font-optical-sizing: auto /*permite que el navegador ajuste el texto para que sea mas legible*/;
+    font-weight: normal;
+    font-style: normal;
+    width: 221px;
+    height: 194px;
+    left: 379px ;
+    position: absolute;
+    margin-top: 98%;
+    text-align: justify;
+    color: #312e2e;
+}
+/*Afecta las propiedades en el producto ocho*/
+.producto8{
+  margin-top: 95%;
+  position: absolute;
+  width: 219px;
+  left: 651px;
+  border-radius: 8px /*redondea las esquinas del elemento*/;
+}
+.subtitulo8{
+  font-family: "Cardo", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  color: #8d6e63;
+  width: 154px;
+  height: 22px;
+  position: absolute;
+  left: 935px;
+  margin-top: 95%;
+}
+.parrafo8{
+   font-family: "Lora", serif;
+    font-optical-sizing: auto/*permite que el navegador ajuste el tamaño de la fuente para
+    que sea mas legible*/;
+    font-weight: normal;
+    font-style: normal;
+    width: 221px;
+    height: 194px;
+    left: 910px ;
+    position: absolute;
+    margin-top: 100%;
+    text-align: justify;
+    color: #312e2e;
+
+}
+
+/*Pie de pagina*/
+.footer2{
+  background-color: #d8a7b1;
+  color: white;
+  font-size: 12;
+  text-align: center;
+  margin-top: 1800px;
+  height: 75px;
+}
+
+/*Afecta todas las propiedades de la pagina 4 formulario*/
+.texto{
+  top: 35%;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto /*permite que el navegador ajuste el texto para que sea más legible*/;
+    font-weight: normal;
+    font-style: normal;
+
+  
+}
+input[type="text"/*Aplica estilo solo a los campos con el atribuo text*/]{
+  background-color: #ffffff;
+  color: rgb(99, 56, 56);
+  border-radius: 8px /*redondea las esquinas de un elemento*/;
+  border: 2px solid #8d6e63 /*Aplica el grosor del borde y el color*/;
+   height: 30px;
+   width: 400px;
+}
+input[type="tel"/*Aplica estilo solo a los campos con el atribuo tel*/]{
+  background-color: #ffffff;
+  color: rgb(99, 56, 56);
+  border-radius: 8px /*redondea las esquinas de un elemento*/;
+  border: 2px solid #8d6e63 /*Aplica el grosor del borde y el color*/;
+  height: 30px;
+  width: 400px;
+
+}
+textarea /*aplica estilo al campo de texto*/{
+
+  padding: 12px 20px /*Cambia el modelo de caja para que el ancho y el alto incluyan el padding y el borde*/;
+  box-sizing: border-box;
+  border: 2px solid #8d6e63;
+  border-radius: 8px;
+  background-color: #ffffff;
+  resize: none /*no deja que el usuario cambie el tamaño del elemento*/;
+  width: 400px;
+}
+ form{
+  
+    font-family: "Lora", serif;
+    font-optical-sizing: auto /*permite que el navegador modifique el tamaño de la fuente para que sea mas legible*/;
+    font-weight:normal;
+    font-style: normal;
+    color: #613f33;
+    position: absolute;
+    margin-left: 450px;
+    background-color: #e4b9a7b7;
+    width: 430px;
+    border-radius: 10px /*redondea las esquinas de un elemnto*/;
+    margin-top: 8%;
+    text-align: center;
+    height: 430px;
+}
+
+.button {
+  background-color: #7e5236bb; 
+  border: none;
+  color:white;
+  padding: 10px 20px /*aplica 10px de relleno abajo y arriba y 20 px a la izquierda y derecha*/;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block /*Hace que el elemnto se alinie en linea pero pueda definirsele alto ancho margenes*/;
+  font-size: 16px;
+  border-radius: 8px;
+
+}
+/*Pie de pagina*/
+.footer4{
+  background-color: #d8a7b1;
+  color: white;
+  font-size: 12;
+  text-align: center;
+  margin-top:620px;
+  height: 75px;
+}
+/*Pagina de recomendaciones*/
+.tit1{
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  color: #b16882; 
+  
+}
+.par1{
+  top: 55%;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: normal;
+  font-style: normal;
+  
+
+}
+
+.p2{
+  width: 320px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: normal;
+  font-style: normal; 
+  text-align: justify;
+  background-color: #bea788ea;
+  color: #3d241a;
+  height: 100px;
+  border-radius: 10px;
+  left: 100px;
+  position: absolute;
+  padding: 20px;
+ 
+}
+.p3{
+  width: 320px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight:normal;
+  font-style: normal; 
+  text-align: justify;
+  background-color: #bea788ea;
+  color: #3d241a;
+  height: 100px;
+  border-radius: 10px;
+  left: 500px;
+  padding: 20px;
+  position: absolute;
+}
+.p4{
+  width: 320px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: normal;
+  font-style: normal; 
+  text-align: justify;
+  background-color: #bea788ea;
+  color: #3d241a;
+  height: 100px;
+  border-radius: 10px;
+  padding: 20px /*Añade un espacio entre el contenido y los bordes*/;
+  left: 900px;
+  position: absolute;
+
+}
+.p5{
+  width: 320px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: normal;
+  font-style: normal; 
+  text-align: justify;
+  background-color: #bea788ea;
+  color: #3d241a;
+  height: 100px;
+  border-radius: 10px;
+  left: 100px;
+  margin-top: 15%;
+  position: absolute;
+  padding: 20px;
+}
+.p6{
+  width: 320px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: normal;
+  font-style: normal; 
+  text-align: justify;
+  background-color: #bea788ea;
+  color: #3d241a;
+  height: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 15%;
+  left: 500px;
+  position: absolute;
+}
+.p7{
+  width: 320px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: normal;
+  font-style: normal; 
+  text-align: justify;
+  background-color: #bea788ea;
+  color: #3d241a;
+  height: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  left: 900px;
+  position: absolute;
+  margin-top: 15%;
+
+}
+
+.tit2{
+  margin-top: 430px;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: 900;
+  font-style: normal;
+  color: #b16882; 
+  position: absolute;
+  left: 480px;
+}
+
+
+
+.pa1{
+  top: 40;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #bea788ea;
+  color: #613f33;
+  margin-top: 38%;
+  position: absolute;
+  width: 228px;
+  height: 225px;
+  margin-left: 10%;
+  padding: 24px;
+  border-radius: 20px;
+   
+}
+.pielgr{
+  position: absolute;
+  width: 150px;
+  height: 130px;
+  margin-top: 48%;
+  margin-left: 14.5%;
+  border-radius: 10px;
+}
+
+.pa2{
+  top: 40;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #bea788ea;
+  color: #613f33;
+  margin-top: 38%;
+  position: absolute;
+  width: 228px;
+  height: 225px;
+  margin-left: 40%;
+  padding: 24px;
+  border-radius: 20px;
+   
+}
+
+
+.pielmx{
+  position: absolute;
+  width: 150px;
+  height: 130px;
+  margin-top: 48%;
+  margin-left: 44.5%;
+  border-radius: 10px;
+}
+
+.pa3{
+  top: 40;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto /*Permite que el navegador ajuste el tamaño de la fuente para que sea mas legible*/;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #bea788ea;
+  color: #613f33;
+  margin-top: 38%;
+  position: absolute;
+  width: 228px;
+  height: 225px;
+  margin-left: 70%;
+  padding: 24px;
+  border-radius: 20px;
+   
+}
+
+.pielsc{
+  position: absolute;
+  width: 150px;
+  height: 130px;
+  margin-top: 48%;
+  margin-left: 74.5%;
+  border-radius: 10px;
+}
+
+.footer5{
+  background-color: #d8a7b1;
+  color: white;
+  font-size: 12;
+  text-align: center;
+  margin-top:840px;
+  height: 75px;
+}
